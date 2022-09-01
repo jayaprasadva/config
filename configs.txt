@@ -49,9 +49,9 @@ if(!rValue)
 	sudo curl -o /usr/share/backgrounds/warty-final-ubuntu.png http://192.168.0.250/files/config/warty-final-ubuntu.png
 	}
 
-sudo curl -o /etc/xdg/autostart/gettings.desktop http://192.168.0.250/files/config/gsettings.desktop
+sudo curl -o /etc/xdg/autostart/gettings.desktop https://github.com/jayaprasadva/config/blob/main/gettings.desktop
 					or
-sudo wget -S -P /etc/xdg/autostart/  http://192.168.0.250/files/config/gsettings.desktop
+sudo wget -S -P /etc/xdg/autostart/  https://github.com/jayaprasadva/config/blob/main/gettings.desktop
 
 [4a] *--------------------------------To write protect a Folder/File------------ -----------------------------------------*
 
