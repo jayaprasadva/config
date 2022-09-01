@@ -46,7 +46,7 @@ rValue = find /usr/share/backgrounds -type f -name warty-final-ubuntu.png
 
 if(!rValue)
 	{
-	sudo curl -o /usr/share/backgrounds/warty-final-ubuntu.png http://192.168.0.250/files/config/warty-final-ubuntu.png
+	sudo curl -o /usr/share/backgrounds/warty-final-ubuntu.png https://github.com/jayaprasadva/config/blob/main/warty-final-ubuntu.png
 	}
 
 sudo curl -o /etc/xdg/autostart/gettings.desktop https://github.com/jayaprasadva/config/blob/main/gettings.desktop
