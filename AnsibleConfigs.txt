@@ -1,0 +1,17 @@
+*---------------------------Ansible host side---------------------------*
+sudo apt update
+sudo apt install openssh-server curl python3 -y
+sudo passwd root
+
+echo "%sudo  ALL=(ALL) NOPASSWD:ALL" | sudo tee /etc/sudoers.d/sudo_nopasswd
+
+sudo sed -i 's/^PermitRootLogin.*/PermitRootLogin yes/' /etc/ssh/sshd_config
+
+sudo systemctl restart sshd  or  sudo service sshd restart
+
+*------------------------Ansible Controller side-------------------------*
+
+ssh-copy-id root@192.168.0.1
+ssh root@192.168.0.1
+exit
+
