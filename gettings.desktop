@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=gsettings set org.gnome.desktop.background picture-uri 'file:///usr/share/backgrounds/warty-final-ubuntu.png'
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_IN]=SetWallPaper
+Name=SetWallPaper
+Comment[en_IN]=Default WallPaper
+Comment=Default WallPaper
